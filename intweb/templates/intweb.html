@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intweb</title>
+	<script
+  	src="https://code.jquery.com/jquery-3.4.1.js"
+ 	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  	crossorigin="anonymous"></script>
+	<script src="{{ url_for('static', filename='intweb.js') }}"></script>
+	<link rel="stylesheet" href="{{ url_for('static', filename='intweb.css') }}">
+</head>
+<body>
+<div id="wrapper">
+	<div class="element" contenteditable="true">
+		<h1>Intweb</h1>
+	</div>
+	<div class="element" contenteditable="true">
+		<p>Welcome to Intweb. You can play around with this webpage to turn it into whatever you want!</p>
+	</div>
+</div>
+<br><br><br><br>
+<br><br><br><br>
+<button id="addelement">Add Element</button>
+</body>
+</html>
