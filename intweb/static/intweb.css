@@ -1,0 +1,41 @@
+/* Apply some basic styles to the wrapper and button */
+#wrapper {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+#addelement {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#addelement:hover {
+  background-color: #0056b3;
+}
+
+/* Style the elements with the "element" class */
+.element {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.element h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.element p {
+  font-size: 16px;
+  color: #555;
+}
+
+.element img {
+  max-width: 100%;
+  height: auto;
+}
